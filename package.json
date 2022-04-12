@@ -1,0 +1,18 @@
+{
+  "devDependencies": {},
+  "dependencies": {
+    "@davidwells/postcss-math": "^1.0.3",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-cli": "^9.1.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.4",
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "build:css": "postcss ./app/assets/stylesheets/application.postcss.css -o ./app/assets/builds/application.css"
+  }
+}
