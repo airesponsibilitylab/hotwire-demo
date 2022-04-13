@@ -1,1 +1,7 @@
 /* Entry point for your PostCSS build */
+
+.card {
+  @apply p-5 mb-4 border border-red-200;
+  border-radius: 30px;
+
+}
